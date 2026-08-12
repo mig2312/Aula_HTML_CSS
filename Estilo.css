@@ -1,0 +1,56 @@
+
+Body{
+    Font-Family:Arial,Sans-Serif;
+    Line-Height:1.6;
+    BackGround-Color:#F0F2F5;
+    Margin:0;
+    Pading:0;
+    }
+Header,Main,Footer {
+   Max-Width:900px;
+   Margin: 0 Auto;
+   }
+Header{
+Background-Color:#2C3E50;
+Color:#FFFFFF;
+Padding:20px;
+Text-Align:Center;
+}
+Nav Ul{
+List-Style:None;
+Padding:0;
+Display:Flex;
+Justify-Content:Center;
+Gap:15px; 
+}
+Nav A:Hover{
+BackGround-Color
+}
+Nav A{
+    Color: #ecf0f1
+    Text=Decoration:None;
+    Font-Weight:bold;
+    Padding:5px 10px;
+    Border-Radius:4px
+}
+Main{
+    Padding:20px
+}
+Article{
+    BackGround-Color#ffffff;
+    Padding:20px
+    Magin-Bottom:20px
+    Border_Radius:8px
+    Box-Shadow:o 2px 4px rgba(0,0,0,0,0.1);
+}
+Article H2{
+    Color:#2c3e50
+    Margin-Top:20px;
+}
+Footer{
+    BackGround-Color#1a252f;
+    Color:#ffffff;
+    Text-align:center;
+    Padding:15px;
+    Margin-top:20px;
+}
