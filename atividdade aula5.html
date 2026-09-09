@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="widht=device-widht,initial-scale=1.0">
+
+    <title>Formulário Completo</title>
+
+    <link rel="stylesheet"href="style.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <h1>Formulário Completo</h1>
+
+            <form>
+
+                <!--NOME-->
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+
+                <!--ENDEREÇO-->
+                <div class="campo">
+                    <label for="endereço">Endereço:</label>
+                    <input type="text" id="endereço" name="endereço">
+                </div>
+
+                <!--TELEFONES-->
+                <div class="telefones">
+
+                    <label for="residencial">
+                        Telefone Residencial:
+                    </label>
+
+                    <input type="tel" id="residencial">
+
+                    <label for="celular">
+                        Celular:
+                    </label>
+
+                    <input type="tel" id="celular">
+
+                    <label for="recado">
+                        Rec.
+                    </label>
+
+                    <input type="tel" id="recado">
+
+                </div>
+
+                <!---DEPARTAMENTO-->
+                <div class="grupo">
+
+                    <span>Interesse por qual departamento:</span>
+
+                    <label>
+                        <input type="checkbox" name="departamento" value="Comercial">
+                        Comercial
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="departamento" value="Transpotes">
+                        Transportes
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="departamento" value="RH">
+                        RH
+                    </label>
+
+                    <label>
+                        <input  type="checkbox" name="departamento" value="TI">
+                        TI
+                    </label>
+
+                </div>
+
+                <!--SEXO-->
+                <div class="grupo">
+
+                    <span>Sexo:</span>
+
+                    <label>
+                        <input type="radio" name="sexo" value="masculino">
+                        masculino
+                    </label>
+
+                    <label>
+                        <input type="radio" name="sexo" value="feminino">
+                        feminino
+                    </label>
+
+                    <label>
+                        <input type="radio" name="sexo" value="outro">
+                        outro
+                    </label>
+                    
+                </div>
+
+                <!--ESTADO CIVIL-->
+                <div class="campo estado">
+
+                    <label for="estado">
+                        Estado Civil:
+                    </label>
+
+                    <select id="estado" name="estado">
+                        <option value="solteiro">Solteiro</option>
+                        <option value="casado">Casado</option>
+                        <option value="divorciado">Divorciado</option>
+                        <option value="viuvo">Viúvo</option>
+                    </select>
+
+                </div>
+
+                <!--FORMAÇÃO-->
+                <div class="grupo">
+
+                    <span>Formação:</span>
+
+                    <label>
+                        <input type="checkbox" name="formação" value="técnica">
+                        técnica
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="formação" value="superior">
+                        superior
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="formação" value="pos">
+                        Pós graduação (especialização)
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="formação" value="mestrado">
+                        mestrado
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="formação" value="doutorado">
+                        doutorado
+                    </label>
+
+                </div>
+                
+                <!--ÁREA DE INTERESE-->
+                <div class="interesse">
+
+                    <label for="mensagem">
+
+                        Qual o seu interesse<br> em trabalhar nesta<br> empresa?
+
+                    </label>
+
+                    <textarea id="mensagem" name="mensagem"></textarea>
+
+                </div>
+
+                <!--CURRÍCULO-->
+                <div class="curriculo">
+
+                    <label for="arquivo">
+                        Anexe seu curriculo:
+                    </label>
+
+                    <input type="file" id="arquivo">
+
+                </div>
+
+                <!--BOTÕES-->
+                <div class="botões">
+
+                    <button type="submit">
+                        Enviar
+                    </button>
+
+                    <button type="reset">
+                        Limpar
+                    </button>
+
+                </div>
+            
+            </form>
+
+        </div>
+
+</body>
+</html>       
